@@ -1,8 +1,119 @@
 body {
-    background-color: aquamarine;
+    background-color: #F4E7D9;
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/196/original/7896e01406056a8d334d6fc2c07941dd.jpg?1713130381");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 30px;
+   max-width: auto;
+    font-family: "Caprasimo", serif;
+    cursor: pointer;
+}
+a {
+    color: gray;
+}
+select {
+    width: 250px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    color:wheat;
+    font-family: "Caprasimo", serif;
+    
+}
+h1 {
+    font-size: 100px;
+    background: url("https://64.media.tumblr.com/a237a53cf10e7f3236931e38ba14f7b9/tumblr_n0gbjmB5lO1rt67t1o1_500.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    margin: 0 30px;
+}
+h2 {
+    color: teal;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+}
+footer {
+    margin-top: 40px;
     text-align: center;
+    color: purple;
+    font-size: 18px;
+}
+.container {
+    text-align: center;
+    background-color: rgb(173, 216, 230, 0.8);
+    border-radius: 40px;
+    padding: 60px 120px;
+    margin: 70px;
+    box-shadow: 10px 10px 20px 14px rgba(0, 0, 0, 0.2);
+}
+.cities {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.description {
+    background-color: rgba(207, 220, 224, 0.8);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.date {
+    display: flex;
+    margin-bottom: 30px;
+}
+.time {
+    font-size: 30px;
+}
+.la-city,
+.paris-city,
+.mnl-city,
+.london-city {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 60px 60px 100px;
+    border-style: dotted;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+.la-city {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/195/original/Firefly_retro_los_angeles_illustration_51624_%281%29.jpg?1713130359");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 
+    0 0 0 3px black,
+    0 0 0 15px #DD5F60,
+    0 0 0 18px black;
 }
 
-footer {
-    text-align: center;
+.paris-city {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/197/original/Firefly_retro_paris_illustration_38490.jpg?1713130544");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:
+    0 0 0 3px black,
+    0 0 0 15px #369376,
+    0 0 0 18px black;
+}
+.mnl-city {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/201/original/Firefly_retro_manila_city_illustration_80111.jpg?1713133302");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:
+    0 0 0 3px black,
+    0 0 0 15px #76C9B9,
+    0 0 0 18px black;
+}
+.london-city {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/202/original/Firefly_retro_london_illustration_85998.jpg?1713133506");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:
+    0 0 0 3px black,
+    0 0 0 15px #FDE5C1,
+    0 0 0 18px black;
 }
