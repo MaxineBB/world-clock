@@ -4,12 +4,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 30px;
-   max-width: auto;
+    width: auto;
     font-family: "Caprasimo", serif;
-    cursor: pointer;
 }
 a {
-    color: gray;
+    color: green;
+    cursor: pointer;
 }
 select {
     width: 250px;
@@ -20,7 +20,7 @@ select {
     background-color: brown;
     color:wheat;
     font-family: "Caprasimo", serif;
-    
+    cursor: pointer;
 }
 h1 {
     font-size: 100px;
@@ -38,17 +38,18 @@ h2 {
     -webkit-text-stroke-color: white;
 }
 footer {
-    margin-top: 40px;
     text-align: center;
     color: purple;
-    font-size: 18px;
+    font-size: 20px;
+    position: fixed, sticky;
+    width: 1900p;
 }
 .container {
     text-align: center;
     background-color: rgb(173, 216, 230, 0.8);
     border-radius: 40px;
     padding: 60px 120px;
-    margin: 70px;
+    margin: 50px;
     box-shadow: 10px 10px 20px 14px rgba(0, 0, 0, 0.2);
 }
 .cities {
@@ -117,3 +118,50 @@ footer {
     0 0 0 15px #FDE5C1,
     0 0 0 18px black;
 }
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.la-btn,
+.paris-btn,
+.mnl-btn,
+.london-btn {
+   background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+   color: #422800;
+    cursor: pointer;
+   display: inline-block;
+   font-weight: 600;
+    font-size: 18px;
+   padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+  user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ }
+
+ .la-btn:hover,
+ .paris-btn:hover,
+ .mnl-btn:hover,
+ .london-btn:hover {
+    background-color: #fff;
+ }
+
+
+@media (min-width: 768px) {
+    .la-btn,
+    .paris-btn,
+    .mnl-btn,
+    .london-btn {
+        min-width: 120px;
+        padding: 0 25px;
+     }
+ }
