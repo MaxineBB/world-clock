@@ -13,83 +13,85 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+
     <title>MB | Groovy World Clock</title>
   </head>
   <body>
     <div class="container">
-      <h1>-ˋˏ ༻❁༺ ˎˊ- <br />World Clock</h1>
-
-      <select>
+      <h1>World Clock</h1>
+      <select id="city-elements">
         <option value="">select a city..</option>
-        <option value="Los Angeles">Los Angeles</option>
-        <option value="Paris">Paris</option>
-        <option value="Manila">Manila</option>
-        <option value="London">London</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Asia/Manila">Manila</option>
+        <option value="Europe/London">London</option>
       </select>
 
-      <div class="cities">
-        <div class="la-city" id="la-city">
-          <h2>Los Angeles</h2>
-          <div class="description">
-            <div class="date"></div>
-            <div class="time"></div>
+      <div class="content">
+        <div class="cities">
+          <div class="la-city" id="la-city">
+            <h2>Los Angeles</h2>
+            <div class="description">
+              <div class="date"></div>
+              <div class="time"></div>
+            </div>
+          </div>
+          <div class="paris-city" id="paris-city">
+            <h2>Paris</h2>
+            <div class="description">
+              <div class="date"></div>
+              <div class="time"></div>
+            </div>
           </div>
         </div>
-        <div class="paris-city" id="paris-city">
-          <h2>Paris</h2>
-          <div class="description">
-            <div class="date"></div>
-            <div class="time"></div>
+        <div class="buttons">
+          <div>
+            <button
+              onclick="window.location.href = 'https://www.discoverlosangeles.com/media/facts-about-la'"
+              ;
+              type="button"
+              class="la-btn"
+            >
+              Learn more about Los Angeles
+            </button>
+          </div>
+          <div>
+            <button
+              onclick="window.location.href = 'https://www.britannica.com/place/Paris'"
+              ;
+              type="button"
+              class="paris-btn"
+            >
+              Learn more about Paris
+            </button>
+          </div>
+          <div>
+            <button
+              onclick="window.location.href = 'https://expertworldtravel.com/manila-facts/'"
+              ;
+              type="button"
+              class="mnl-btn"
+            >
+              Learn more about Manila
+            </button>
+          </div>
+          <div>
+            <button
+              onclick="window.location.href = 'https://www.britannica.com/place/London'"
+              ;
+              type="button"
+              class="london-btn"
+            >
+              Learn more about London
+            </button>
           </div>
         </div>
-        <div class="mnl-city" id="mnl-city">
-          <h2>Manila</h2>
-          <div class="description">
-            <div class="date"></div>
-            <div class="time"></div>
-          </div>
-        </div>
-        <div class="london-city" id="london-city">
-          <h2>London</h2>
-          <div class="description">
-            <div class="date"></div>
-            <div class="time"></div>
-          </div>
-        </div>
-      </div>
-      <div class="buttons">
-        <button
-          onclick="window.location.href = 'https://www.discoverlosangeles.com/media/facts-about-la'"
-          ;
-          type="button"
-          class="la-btn"
-        >
-          Learn more about Los Angeles
-        </button>
-        <button
-          onclick="window.location.href = 'https://www.britannica.com/place/Paris'"
-          ;
-          type="button"
-          class="paris-btn"
-        >
-          Learn more about Paris
-        </button>
-        <button
-          onclick="window.location.href = 'https://expertworldtravel.com/manila-facts/'"
-          ;
-          type="button"
-          class="mnl-btn"
-        >
-          Learn more about Manila
-        </button>
-        <button
-          onclick="window.location.href = 'https://www.britannica.com/place/London'"
-          ;
-          type="button"
-          class="london-btn"
-        >
-          Learn more about London
-        </button>
       </div>
     </div>
     <footer>

@@ -35,3 +35,12 @@ let londonTime = moment().tz("Europe/London");
 londonDateElement.innerHTML = londonTime.format("MMMM Do YYYY");
 londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<small>]A[</small>]");
 });
+
+function updateCity(event) {
+    let cityTimeZone = event.target.value;
+    cityTime = moment().tz(cityTimeZone.format("MMMM Do YYYY"));
+
+}
+
+let citiesSelect = document.querySelector("#city-elements");
+citiesSelect.addEventListener("change", updateCity);
