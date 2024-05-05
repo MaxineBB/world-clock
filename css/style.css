@@ -1,26 +1,26 @@
 body {
     background-color: #F4E7D9;
-    background: url("https://static.vecteezy.com/system/resources/previews/020/230/853/non_2x/groovy-seamless-pattern-hippie-pattern-retro-seamless-pattern-retro-background-checkered-pattern-free-vector.jpg");
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/543/original/groovy-seamless-pattern-hippie-pattern-retro-seamless-pattern-retro-background-checkered-pattern-free-vector.jpg?1714871417");
 }
 a {
-    color: plum;
+    color: teal;
     cursor: pointer;
 }
 select {
     width: 250px;
-    padding: 30px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
     background-color: brown;
     color:wheat;
-    font-family: "Caprasimo", serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
     margin-bottom: 10px;
     transform: translate(0, -100px);
 }
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/819/original/200w.gif?1714340674");
     background-position: center;
     color: transparent;
@@ -35,8 +35,10 @@ h2 {
     font-weight: 100px;
 }
 footer {
+    position: fixed;
+    background-color:#FFE5CC;
     text-align: center;
-    color: black;
+    color: purple;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -44,16 +46,28 @@ footer {
     text-align: center;
     background-color: rgba(216, 158, 91, 0.8);
     border-radius: 40px;
-    margin: 30px 630px 600px 630px;
+    margin: 0 630px;
+    min-width: 600px;
+    max-width: 600px;
 }
 
 .groovy-disco {
     width: 180px;
+    transform: translate(-20px, -470px);
 }
-.cities {
+#cities {
    text-align: left;
    transform: translate(70px, -70px);
-
+    margin: 10px;
+    padding: 5px;
+    max-width: 500px;
+    font-size: 18px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: #fbeee0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(35px, -90px);
 }
 .description {
     font-weight: bold;
@@ -70,7 +84,7 @@ footer {
 .time {
     display: flex;
     justify-content: end;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0 30px;
     transform: translate(20px, -50px);
 
@@ -81,19 +95,6 @@ footer {
     transform: translate(250px, -350px);
 }
 
-.la-city,
-.paris-city {
-    margin: 10px;
-    width: 400px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 20px;
-    border-style: dotted;
-    border-color: rgba(0, 0, 0, 0.4);
-    background-color: #fbeee0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
 
 .la-btn,
 .paris-btn,
@@ -116,7 +117,7 @@ footer {
   user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    transform: translate(-270px, 300px);
+    transform: translate(-257px, 300px);
 
  }
 

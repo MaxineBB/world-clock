@@ -20,12 +20,12 @@
       rel="stylesheet"
     />
 
-    <title>MB | Groovy World Clock</title>
+    <title>MB | World Clock</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select id="city-elements">
+      <select id="city">
         <option value="">select a city..</option>
         <option value="America/Los_Angeles">Los Angeles</option>
         <option value="Europe/Paris">Paris</option>
@@ -34,15 +34,15 @@
       </select>
 
       <div class="content">
-        <div class="cities">
-          <div class="la-city" id="la-city">
+        <div class="cities" id="cities">
+          <div class="city" id="la-city">
             <h2>Los Angeles</h2>
             <div class="description">
               <div class="date"></div>
               <div class="time"></div>
             </div>
           </div>
-          <div class="paris-city" id="paris-city">
+          <div class="city" id="paris-city">
             <h2>Paris</h2>
             <div class="description">
               <div class="date"></div>
@@ -91,6 +91,11 @@
               Learn more about London
             </button>
           </div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/820/original/giphy.gif?1714341138"
+            alt="groovy-disco"
+            class="groovy-disco"
+          />
         </div>
       </div>
     </div>
